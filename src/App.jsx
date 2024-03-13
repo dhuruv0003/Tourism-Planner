@@ -5,12 +5,12 @@ import data from './data.jsx'
 
 function App() {
 
-  const [data, setData] = useState(data)
+  const [toursval, setData] = useState(data)
 
   return (
     <div className=''>
 
-      <Tours tours={data}></Tours>
+      <Tours tours={toursval}></Tours>
 
     </div>
   )

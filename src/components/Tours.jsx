@@ -1,3 +1,4 @@
+import Card from "./Card";
 export default function Tours(props) {
     return (
         <div className="">
@@ -7,7 +8,7 @@ export default function Tours(props) {
             <div className="">
                 {
                     props.tours.map((tour)=>{
-                        return <Card>{tour}</Card>
+                        return <Card {...tour }></Card>
                     })
                 }
             </div>
