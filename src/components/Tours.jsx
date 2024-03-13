@@ -1,3 +1,3 @@
-export default function tours(){
-    
+export default function Tours(){
+
 }
