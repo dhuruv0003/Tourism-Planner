@@ -1,18 +1,17 @@
 import { useState } from 'react'
 import './App.css'
 import Tours from './components/Tours'
-import data from './data'
+import data from './data.jsx'
 
 function App() {
 
-  const [data,setData]=useState(data)
+  const [data, setData] = useState(data)
 
   return (
     <div className=''>
-      <div className="">
-        <h1>Tours Planning by Dhuruv</h1>
-        <Tours tours={data}></Tours>
-      </div>
+
+      <Tours tours={data}></Tours>
+
     </div>
   )
 }
