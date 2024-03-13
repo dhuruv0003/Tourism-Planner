@@ -11,7 +11,7 @@ function App() {
     <div className=''>
       <div className="">
         <h1>Tours Planning by Dhuruv</h1>
-        <Tours items={data}></Tours>
+        <Tours tours={data}></Tours>
       </div>
     </div>
   )
