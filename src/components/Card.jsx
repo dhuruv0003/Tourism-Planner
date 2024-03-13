@@ -5,7 +5,7 @@ export default function Card({id,price,removetour,info,image,name}) {
     function readmorehandler(){
         setreadmore(!readmore)
     }
-    const description= readmore?info: `${info.substring(0,200)}`
+    const description= readmore?info : `${info.substring(0,200)}`
     return (
         <div className="card">
             <img src={image} className="image" />
