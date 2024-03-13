@@ -1,5 +1,5 @@
 import Card from "./Card";
-export default function Tours(props) {
+export default function Tours({tours,removetour}) {
     return (
         <div className="">
             <div className="">
@@ -7,8 +7,8 @@ export default function Tours(props) {
             </div>
             <div className="">
                 {
-                    props.tours.map((tour)=>{
-                        return <Card {...tour }></Card>
+                    tours.map((tour)=>{
+                        return <Card {...tour } removetour={removetour}></Card>
                     })
                 }
             </div>
