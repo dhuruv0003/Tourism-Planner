@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <div className=''>
+    <div className='w-[100vw] m-[0px] p-[0px] h-[100vh]'>
 
       <Tours tours={tours} removetour={removetour}></Tours>
 
