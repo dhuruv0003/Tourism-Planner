@@ -13,6 +13,19 @@ function App() {
     setData(newTours)
   }
 
+  function refreshhandle(){
+    setData(data)
+  }
+
+  if (tours.length===0){
+    return (
+      <div className="refresh">
+        <h2>No tour plan exist</h2>
+        <button onClick={refreshhandle}>Refresh</button>
+      </div>
+    );
+  }
+
   return (
     <div className='w-[100vw] m-[0px] p-[0px] h-[100vh]'>
 
