@@ -3,7 +3,7 @@ export default function Tours({ tours, removetour }) {
     return (
         <div className="container">
             <div className="title">
-                <h1>Tours Planning by Dhuruv</h1>
+                <h3>Plan With Dhuruv</h3>
             </div>
             <div className="cards">
                 {
