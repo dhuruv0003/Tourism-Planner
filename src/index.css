@@ -51,6 +51,10 @@ body {
     box-shadow: rgba(0,0,0,0.24) 2px 3px 8px ;
     border-radius: 10px;
 }
+.card:hover{
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
 .image{
     width: 380px;
     aspect-ratio: 1/1;
@@ -59,4 +63,34 @@ body {
 
 .tour-info{
     margin: 20px 5px;
+}
+
+.tour-price{
+    font-size: 1.3rem;
+    color: green;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #b4161b21;
+}
+.btn-red:hover{
+    background-color: rgb(201, 0, 0);
+    color: white;
+    transition: all 0.2s;
 }

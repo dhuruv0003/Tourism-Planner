@@ -21,9 +21,8 @@ export default function Card({ id, price, removetour, info, image, name }) {
                     <span className="read-more" onClick={readmorehandler}>&nbsp;{!readmore ? 'readmore' : 'showless'}</span>
                 </div>
             </div>
-            <div className="btn-red">
-                <button className="" onClick={() => removetour(id)}>Not Interested</button>
-            </div>
+
+            <button className="btn-red" onClick={() => removetour(id)}>Not Interested</button>
 
         </div>
 
