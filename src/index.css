@@ -94,3 +94,21 @@ body {
     color: white;
     transition: all 0.2s;
 }
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-white{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #33cae5;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9fc5d566;
+}
