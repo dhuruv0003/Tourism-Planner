@@ -21,13 +21,13 @@ function App() {
     return (
       <div className="refresh">
         <h2>No tour plan exist</h2>
-        <button onClick={refreshhandle}>Refresh</button>
+        <button className="btn-white" onClick={refreshhandle}>Refresh</button>
       </div>
     );
   }
 
   return (
-    <div className='w-[100vw] m-[0px] p-[0px] h-[100vh]'>
+    <div className='App'>
 
       <Tours tours={tours} removetour={removetour}></Tours>
 
