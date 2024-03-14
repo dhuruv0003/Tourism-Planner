@@ -7,8 +7,11 @@ export default function Tours({ tours, removetour }) {
             </div>
             <div className="cards">
                 {
+                    //error=>Each child in a list should have a unique "key" prop.
+
+                    //whenever we use map function always use key function that coonsists of unique element from the array or object
                     tours.map((tour) => {
-                        return <Card {...tour} removetour={removetour}></Card>
+                        return <Card key={tour.id} {...tour} removetour={removetour}></Card>
                     })
                 }
             </div>
